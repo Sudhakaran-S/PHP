@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="HTML-fieldsetform">
+        <title>HTML-fieldsetform</title>
+    </head>
+    
+    <body>
+        <h1>HTML-fieldsetform</h1>
+        <p>To see the HTML-fieldsetform click right to your mouse and go to view page source.</p>
+        <hr>
+        <form method="post" action="thank-you.html">
+            <fieldset>
+                <legend>Input Box Elements</legend>
+                <label for="FristName">First Name:</label>
+                <input type="text" placeholder="Enter your First Name" id="FristName" name="FristName">
+                <br><br>
+                <label for="LastName">Last Name:</label>
+                <input type="text" placeholder="Enter your Last Name" id="LastName" name="LastName">
+                <br><br>
+                <label>Password:</label>
+                <input type="password" placeholder="Enter the password" id="password" name="password">
+                <br><br>
+                <label>Number:</label>
+                <input type="number" placeholder="Enter Any Number" id="number" name="number">
+                <br><br>
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="(999) 9999999999">
+                <br><br>
+                <label>URL:</label>
+                <input type="url" placeholder="Enter your URL">
+                <br><br>
+                <label>Serach:</label>
+                <input type="search" placeholder="search">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Select Form ELements</legend>
+                <p>
+                    <label for="select">Select:</label>
+                    <select id="select">
+                        <optgroup label="Optiongroup1">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                            <option>Option 4</option>
+                            <option>Option 5</option>
+                        </optgroup>
+                        <optgroup label="Optiongroup2">
+                            <option>Option 6</option>
+                            <option>Option 7</option>
+                            <option>Option 8</option>
+                            <option>Option 9</option>
+                            <option>Option 10</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Radio Button</legend>
+                    <ul>
+                        <li><label>Option 1:</label> <input type="radio" name="radio" checked></li>
+                        <li><label>Option 2:</label> <input type="radio" name="radio"></li>
+                        <a><label>Option 3:</label> <input type="radio" name="radio"></a>
+                        <a><label>Option 4:</label> <input type="radio" name="radio"></a>
+                    </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Check Button</legend>
+                <ul>
+                    <li><label>CheckBox 1</label><input type="checkbox" name="checkbox" checked></li>
+                    <li><label>CheckBox 2</label><input type="checkbox" name="checkbox"></li>
+                    <li><label>CheckBox 3</label><input type="checkbox" name="checkbox"></li>
+                </ul>
+                <a><label>CheckBox 4</label><input type="checkbox" name="checkbox"></a>
+                <a><label>CheckBox 5</label><input type="checkbox" name="checkbox"></a>
+
+            </fieldset>
+            <fieldset>
+                <legend>Text Area Element</legend>
+                <label>Text Area</label><br>
+                <textarea id="textarea1" name="textarea1" rows="10" cols="50" placeholder="Enter Some Things Here...:)"></textarea>
+            </fieldset><br>
+            <input type="submit">
+            <input type="reset" value="reset">
+        </form>
+        
+    </body>
+</html>
