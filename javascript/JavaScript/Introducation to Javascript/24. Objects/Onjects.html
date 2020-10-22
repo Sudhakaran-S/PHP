@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objects</title>
+        <script>
+            function Area(a,b){
+                this.input1 = a;
+                this.input2 = b;
+                this.getArea = function(){
+                    return this.input1*this.input2;
+                }
+            }
+            var input1 = prompt("Enter the Input1 !");
+            let input2 = prompt("Enter the Input2 !");
+            var result;
+            
+            input1 = parseInt(input1);
+            input2 = parseInt(input2);
+            
+            var  a1 = new Area(input1,input2);
+            result = a1.getArea();
+            console.log("Area: "+result);
+        </script>
+    </head>
+    <body>
+        <h1>Objects</h1>
+        <script>
+            document.write("Area: "+result);
+        </script>
+    </body>
+</html>
